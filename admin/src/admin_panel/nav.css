@@ -1,0 +1,14 @@
+
+    .btn-flat {
+      background-color: #080b38;
+      color: white;
+    }
+    .btn-flat:hover{
+        background-color: #787ae9;
+        color: black;
+    }
+    .btn-xxl {
+      padding: 1rem 1.5rem;
+      font-size: 1.5rem;
+    }
+   
