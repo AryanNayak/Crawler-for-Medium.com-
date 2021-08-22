@@ -50,22 +50,7 @@ while True:
     prev_h = new_height
 
 
-# divs1 = driver.find_elements_by_class_name('ae.eu')
-# divs2 = driver.find_elements_by_class_name('ae.ef') 
 
-
-# for div in divs1:
-#     title = div.find_element_by_tag_name('h2') 
-#     blog_item = {
-#         'title' : title, 
-#         # 'details' : details, 
-#         # 'author': author
-#     }
-#     blog_list.append(blog_item)   
-
-# print(blog_list)
-
-# df = pd.DataFrame(blog_list)
 
 with open('tag.json', 'w') as outfile:
     json.dump(blog_list, outfile)
