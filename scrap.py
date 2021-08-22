@@ -25,7 +25,6 @@ while True:
         title = div.find_element_by_tag_name('h2').text
         details = div.find_element_by_tag_name('h3').text
         author = div.find_element_by_tag_name('h4').text
-        url 
         blog_item = {
             'title' : title, 
             'details' : details, 
